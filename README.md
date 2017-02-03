@@ -1,4 +1,4 @@
 <h1>CSC363</h1>
 
-<p>Placeholder for our code while we continue through our Advanced Web Application course</p>
+<p>Simple web application created with netbeans for Advanced Web Application Course</p>
 

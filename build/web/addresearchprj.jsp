@@ -26,21 +26,58 @@
                    
             <!-- /.navbar-collapse -->
         </div>
+
+
+    
+    
+
+    
+    
+
+            
     
 
     <!-- Page Content -->
-    <c:import url="filler.html"/>
+    <div>
+        <h3>Add New Research Project</h3>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
-            <h2 class="section-heading">Welcome Faculty!</h2>
-            <p class="lead">If you have an account click on the login link.<br>
-                            Otherwise click on the create account link.</p>
-       
-	    </div>		
-        </div>
+        </br></br>
     </div>
+        
+
+    <style type="text/css">
+    label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    }
+    input {
+      display: inline-block;
+      float: left;
+    }
+
+    </style>
+
+        <div class="container">            
+
+            <form action="AddResearch" method="POST">
+                <label>Title*</label>
+                <input type="text" name="title" /></br></br>
+
+                <label>Description*</label>
+                <textarea name="description" rows="4" cols="19">
+                </textarea>
+
+                </br></br></br>
+
+
+                <input type="submit" value="Submit"/><br>
+            </form>
+        </div>
+    
+    <form>
     
     <c:import url="filler.html"/>
 

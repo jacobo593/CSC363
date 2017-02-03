@@ -17,10 +17,10 @@
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
                     <li>
-                        <a href="createaccount.jsp">Create Account</a>
+                        <a href="about.html">Create Account</a>
                     </li>
                     <li>
-                        <a href="login.jsp">Login</a>
+                        <a href="contact.html">Login</a>
                     </li>
                 </ul>    
                    

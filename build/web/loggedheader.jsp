@@ -51,7 +51,7 @@
                         <a href="news.jsp">News</a>
                     </li>
                     <li>
-                        <a href="research.jsp">Research</a>
+                        <a href="editresearch.jsp">Research</a>
                     </li>
                     
                     <li>

@@ -56,7 +56,7 @@
 
         <div class="container">            
 
-            <form action="People" method="POST">
+            <form action="AddPeople" method="POST">
                 <label>Title*</label>
                 <input type="text" name="title*" /></br></br>
 

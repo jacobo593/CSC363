@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class addpub_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class addteaching_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -84,7 +84,7 @@ public final class addpub_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            \n");
       out.write("    <!-- Page Content -->\n");
       out.write("    <div>\n");
-      out.write("        <h3>Add New Publication</h3>\n");
+      out.write("        <h3>Add New Teaching Experience</h3>\n");
       out.write("\n");
       out.write("        </br></br>\n");
       out.write("    </div>\n");
@@ -107,24 +107,21 @@ public final class addpub_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("        <div class=\"container\">            \n");
       out.write("\n");
-      out.write("            <form action=\"AddPublication\" method=\"POST\">\n");
-      out.write("                <label>Title*</label>\n");
-      out.write("                <input type=\"text\" name=\"title*\" /></br></br>\n");
+      out.write("            <form action=\"AddTeaching\" method=\"POST\">\n");
+      out.write("                <label>What (Course)</label>\n");
+      out.write("                <input type=\"text\" name=\"course\" /></br></br>\n");
       out.write("\n");
-      out.write("                <label>Publication/Publisher</label>\n");
-      out.write("                <input type=\"text\" name=\"publication\" value=\"\" /></br></br>\n");
+      out.write("                <label>What (Institute)</label>\n");
+      out.write("                <input type=\"text\" name=\"institute\" value=\"\" /></br></br>\n");
       out.write("\n");
-      out.write("                <label>Publication Date</label>\n");
-      out.write("                <input type=\"text\" name=\"pub_date\" value=\"\" /></br></br>\n");
+      out.write("                <label>When (Semester)</label>\n");
+      out.write("                <input type=\"text\" name=\"semester\" value=\"\" /></br></br>\n");
       out.write("\n");
-      out.write("                <label>Publication URL</label>\n");
-      out.write("                <input type=\"text\" name=\"pub_url\" value=\"\" /></br></br>\n");
-      out.write("\n");
-      out.write("                <label>Author(s)</label>\n");
-      out.write("                <input type=\"text\" name=\"author\" value=\"\" /></br></br>\n");
+      out.write("                <label>Who (TAs)</label>\n");
+      out.write("                <input type=\"text\" name=\"tas\" value=\"\" /></br></br>\n");
       out.write("\n");
       out.write("                <label>Description*</label>\n");
-      out.write("                <textarea name=\"description*\" rows=\"4\" cols=\"19\">\n");
+      out.write("                <textarea name=\"description*\" rows=\"4\" cols=\"19\" value=\"\">\n");
       out.write("                </textarea>\n");
       out.write("\n");
       out.write("                </br></br></br>\n");

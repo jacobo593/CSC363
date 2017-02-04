@@ -33,7 +33,7 @@
             
     <!-- Page Content -->
     <div>
-        <h3>Add New Publication</h3>
+        <h3>Add New Teaching Experience</h3>
 
         </br></br>
     </div>
@@ -56,7 +56,7 @@
 
         <div class="container">            
 
-            <form action="Teaching" method="POST">
+            <form action="AddTeaching" method="POST">
                 <label>What (Course)</label>
                 <input type="text" name="course" /></br></br>
 
@@ -70,7 +70,7 @@
                 <input type="text" name="tas" value="" /></br></br>
 
                 <label>Description*</label>
-                <textarea name="description*" rows="4" cols="19">
+                <textarea name="description*" rows="4" cols="19" value="">
                 </textarea>
 
                 </br></br></br>

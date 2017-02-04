@@ -84,7 +84,7 @@ public final class addservice_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            \n");
       out.write("    <!-- Page Content -->\n");
       out.write("    <div>\n");
-      out.write("        <h3>Add New Publication</h3>\n");
+      out.write("        <h3>Add New Service</h3>\n");
       out.write("\n");
       out.write("        </br></br>\n");
       out.write("    </div>\n");

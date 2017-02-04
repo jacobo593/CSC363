@@ -8,6 +8,18 @@
         <servlet-name>AddService</servlet-name>
         <servlet-class>assignment1servlets.AddService</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddPeople</servlet-name>
+        <servlet-class>assignment1servlets.AddPeople</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddPublication</servlet-name>
+        <servlet-class>assignment1servlets.AddPublication</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddTeaching</servlet-name>
+        <servlet-class>assignment1servlets.AddTeaching</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AddResearch</servlet-name>
         <url-pattern>/AddResearch</url-pattern>
@@ -15,6 +27,18 @@
     <servlet-mapping>
         <servlet-name>AddService</servlet-name>
         <url-pattern>/AddService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddPeople</servlet-name>
+        <url-pattern>/AddPeople</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddPublication</servlet-name>
+        <url-pattern>/AddPublication</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddTeaching</servlet-name>
+        <url-pattern>/AddTeaching</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

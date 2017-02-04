@@ -38,21 +38,8 @@
         </br></br>
     </div>
         
+<link rel="stylesheet" type="text/css" href="addition-format.css" media="screen" />
 
-    <style type="text/css">
-    label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
-    }
-    input {
-      display: inline-block;
-      float: left;
-    }
-
-    </style>
 
         <div class="container">            
 

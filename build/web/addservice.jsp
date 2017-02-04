@@ -39,20 +39,8 @@
     </div>
         
 
-    <style type="text/css">
-    label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
-    }
-    input {
-      display: inline-block;
-      float: left;
-    }
+<link rel="stylesheet" type="text/css" href="addition-format.css" media="screen" />
 
-    </style>
 
         <div class="container">            
 

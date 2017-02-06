@@ -99,6 +99,9 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"addition-format.css\" media=\"screen\" />\r\n");
       out.write("\r\n");
       out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
       out.write("        <div class=\"container\">            \r\n");
       out.write("\r\n");
       out.write("            <form action=\"AddResearch\" method=\"POST\">\r\n");
@@ -115,9 +118,7 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("                <input type=\"submit\" value=\"Submit\"/><br>\r\n");
       out.write("            </form>\r\n");
       out.write("        </div>\r\n");
-      out.write("    \r\n");
-      out.write("    <form>\r\n");
-      out.write("    \r\n");
+      out.write("        \r\n");
       out.write("    ");
       if (_jspx_meth_c_import_1(_jspx_page_context))
         return;

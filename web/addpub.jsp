@@ -41,7 +41,65 @@
 <link rel="stylesheet" type="text/css" href="addition-format.css" media="screen" />
 
 
-        <div class="container">            
+
+<form  method="post">
+    <div class="messages"></div>
+    <div class="controls">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Title *</label>
+                    <input  type="text" name="title" class="form-control" placeholder="Please enter title" required="required" data-error="title is required">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Publication/Publisher</label>
+                    <input  type="text" name="publication" class="form-control" placeholder="Please enter the publication">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Publication Date</label>
+                    <input  type="text" name="date" class="form-control" placeholder="Please enter the date">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Publication URL</label>
+                    <input  type="text" name="url" class="form-control" placeholder="Please enter the URL">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea rows="5" cols="55" placeholder="Enter description here" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1">
+                <input type="submit" class="btn btn-success btn-send" value="Submit">
+            </div>
+        </div>
+    </div>
+</form>
+
+<!--        <div class="container">            
 
             <form action="AddPublication" method="POST">
                 <label>Title*</label>
@@ -68,7 +126,7 @@
 
                 <input type="submit" value="Submit"/><br>
             </form>
-        </div>
+        </div>-->
     
 
     

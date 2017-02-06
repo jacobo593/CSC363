@@ -42,7 +42,64 @@
 <link rel="stylesheet" type="text/css" href="addition-format.css" media="screen" />
 
 
-        <div class="container">            
+<form  method="post">
+    <div class="messages"></div>
+    <div class="controls">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Whate (Course)</label>
+                    <input  type="text" name="course" class="form-control" placeholder="Please enter the course" required="required" data-error="title is required">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>What (Institute)</label>
+                    <input  type="text" name="institute" class="form-control" placeholder="Please enter the institute">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>When (Semester)</label>
+                    <input  type="text" name="semester" class="form-control" placeholder="Please enter the semester">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Who (TAs)</label>
+                    <input  type="text" name="tas" class="form-control" placeholder="Please enter the TAs">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea rows="5" cols="55" placeholder="Enter description here" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1">
+                <input type="submit" class="btn btn-success btn-send" value="Submit">
+            </div>
+        </div>
+    </div>
+</form>
+
+<!--        <div class="container">            
 
             <form action="AddTeaching" method="POST">
                 <label>What (Course)</label>
@@ -66,7 +123,7 @@
 
                 <input type="submit" value="Submit"/><br>
             </form>
-        </div>
+        </div>-->
     
 
     

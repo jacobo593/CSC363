@@ -11,7 +11,7 @@
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
                     <li>
-                        <a href="createaccount.jsp">Create Account</a>
+                        <a href="newaccount.jsp">Create Account</a>
                     </li>
                     <li>
                         <a href="login.jsp">Login</a>
@@ -26,7 +26,7 @@
     <c:import url="filler.html"/>
 
     
-    <form  method="post">
+    <form action="bio.jsp" method="post">
     <div class="messages"></div>
     <div class="controls">
 

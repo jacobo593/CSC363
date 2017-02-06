@@ -26,15 +26,23 @@
     <c:import url="filler.html"/>
 
     
-    <form action="bio.jsp" method="post">
+    <form action="bio.jsp"  method="post">
     <div class="messages"></div>
     <div class="controls">
-
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Name *</label>
+                    <input  type="text" name="name" class="form-control" placeholder="Please enter name" required="required" data-error="Email is required">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-3 col-lg-offset-4 ">
                 <div class="form-group">
                     <label>Email Address *</label>
-                    <input id="form_name" type="text" name="email" class="form-control" placeholder="Please enter email" required="required" data-error="Email is required">
+                    <input  type="text" name="email" class="form-control" placeholder="Please enter email" required="required" data-error="Email is required">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -49,22 +57,24 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-3 col-lg-offset-4">
+                <div class="form-group">
+                    <label>Confirm Password *</label>
+                    <input type="password" name="confrim_password" class="form-control" placeholder="Confirm password" required="required" data-error="Confirm password required">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1">
-                <input type="submit" class="btn btn-success btn-send" value="Login">
+                <input type="submit" class="btn btn-success btn-send" value="Create Account" >
             </div>
         </div>
     </div>
 </form>
+    
+ <c:import url="filler.html"/>
 
-<br>
-<br>
-
-   
-    <a class="col-lg-3 col-lg-offset-4" href="newaccount.jsp">Sign up for a new account</a>
-
-<br>
-<br>
-<br>
 
        
 <c:import url="footer.html"/>

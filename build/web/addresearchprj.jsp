@@ -64,9 +64,7 @@
                 <input type="submit" value="Submit"/><br>
             </form>
         </div>
-    
-    <form>
-    
+        
     <c:import url="filler.html"/>
 
     

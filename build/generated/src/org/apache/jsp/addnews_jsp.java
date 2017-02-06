@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class addnews_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -53,70 +53,39 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
 
       out.write("\r\n");
       out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
       if (_jspx_meth_c_import_0(_jspx_page_context))
         return;
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("        <div class=\"page-header text-center black margin-none\">\r\n");
-      out.write("            <h2 class=\"white\">Faculty Website</h2>\r\n");
+      out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\r\n");
       out.write("        </div>\r\n");
       out.write("      \r\n");
       out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\r\n");
       out.write("            <div class=\"navbar black\" >\r\n");
       out.write("                <ul class=\"nav navbar-nav navbar-left black\">\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"about.html\">Create Account</a>\r\n");
+      out.write("                     <li>\r\n");
+      out.write("                        <a href=\"bio.jsp\">Bio</a>\r\n");
       out.write("                    </li>\r\n");
       out.write("                    <li>\r\n");
-      out.write("                        <a href=\"contact.html\">Login</a>\r\n");
+      out.write("                        <a href=\"addnews.jsp\">News</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"editresearch.jsp\">Research</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"teaching.jsp\">Teaching</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"service.jsp\">Service</a>\r\n");
       out.write("                    </li>\r\n");
       out.write("                </ul>    \r\n");
       out.write("                   \r\n");
-      out.write("            <!-- /.navbar-collapse -->\r\n");
       out.write("        </div>\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("    \r\n");
-      out.write("    \r\n");
-      out.write("\r\n");
-      out.write("    \r\n");
-      out.write("    \r\n");
-      out.write("\r\n");
-      out.write("            \r\n");
       out.write("    \r\n");
       out.write("\r\n");
       out.write("    <!-- Page Content -->\r\n");
-      out.write("    <div>\r\n");
-      out.write("        <h3>Add New Research Project</h3>\r\n");
-      out.write("\r\n");
-      out.write("        </br></br>\r\n");
-      out.write("    </div>\r\n");
-      out.write("        \r\n");
-      out.write("\r\n");
-      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"addition-format.css\" media=\"screen\" />\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("        <div class=\"container\">            \r\n");
-      out.write("\r\n");
-      out.write("            <form action=\"AddResearch\" method=\"POST\">\r\n");
-      out.write("                <label>Title*</label>\r\n");
-      out.write("                <input type=\"text\" name=\"title\" /></br></br>\r\n");
-      out.write("\r\n");
-      out.write("                <label>Description*</label>\r\n");
-      out.write("                <textarea name=\"description\" rows=\"4\" cols=\"19\">\r\n");
-      out.write("                </textarea>\r\n");
-      out.write("\r\n");
-      out.write("                </br></br></br>\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("                <input type=\"submit\" value=\"Submit\"/><br>\r\n");
-      out.write("            </form>\r\n");
-      out.write("        </div>\r\n");
-      out.write("    \r\n");
-      out.write("    <form>\r\n");
       out.write("    \r\n");
       out.write("    ");
       if (_jspx_meth_c_import_1(_jspx_page_context))
@@ -124,10 +93,73 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\r\n");
       out.write("\r\n");
       out.write("    \r\n");
+      out.write("    <form  method=\"post\">\r\n");
+      out.write("    <div class=\"messages\"></div>\r\n");
+      out.write("    <div class=\"controls\">\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
+      out.write("                <div class=\"form-group\">\r\n");
+      out.write("                    <label>Title *</label>\r\n");
+      out.write("                    <input  type=\"text\" name=\"title\" class=\"form-control\" placeholder=\"Please enter title\" required=\"required\" data-error=\"title is required\">\r\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
+      out.write("                <div class=\"form-group\">\r\n");
+      out.write("                    <label>URL</label>\r\n");
+      out.write("                    <input  type=\"text\" name=\"url\" class=\"form-control\" placeholder=\"Please enter url\" >\r\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
+      out.write("                <div class=\"form-group\">\r\n");
+      out.write("                    <label>Description</label>\r\n");
+      out.write("                    <textarea rows=\"5\" cols=\"55\" placeholder=\"Enter bio here\" class=\"form-control\"></textarea>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
+      out.write("                <div class=\"checkbox\">\r\n");
+      out.write("                    <label>\r\n");
+      out.write("                        <input type=\"checkbox\" value=\"\">Check this box if you want news to appear on home page.\r\n");
+      out.write("                    </label>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
+      out.write("                <div class=\"form-group\">\r\n");
+      out.write("                    <label>Image</label>\r\n");
+      out.write("                    <input type=\"file\" name=\"newsImage\" class=\"form-control\">\r\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        \r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\r\n");
+      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Submit\">\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("</form>\r\n");
+      out.write("    \r\n");
+      out.write(" ");
       if (_jspx_meth_c_import_2(_jspx_page_context))
         return;
-      out.write('\r');
-      out.write('\n');
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("       \r\n");
+      if (_jspx_meth_c_import_3(_jspx_page_context))
+        return;
+      out.write("\r\n");
+      out.write("\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -201,7 +233,7 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_2.setPageContext(_jspx_page_context);
     _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("footer.html");
+    _jspx_th_c_import_2.setUrl("filler.html");
     int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
@@ -215,6 +247,32 @@ public final class addresearchprj_jsp extends org.apache.jasper.runtime.HttpJspB
     } finally {
       _jspx_th_c_import_2.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:import
+    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
+    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
+    _jspx_th_c_import_3.setParent(null);
+    _jspx_th_c_import_3.setUrl("footer.html");
+    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
+    try {
+      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
+      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        return true;
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_c_import_3[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_c_import_3.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_c_import_3.doFinally();
+      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
     }
     return false;
   }

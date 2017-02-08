@@ -39,9 +39,21 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
            
-      <p class="lead">News</p>
-      <p>Chorpita, B. F., & Daleiden, E. L. (2014). Structuring the collaboration of science and service in pursuit <br>of a shared vision. <i>Journal of Clinical Child & Adolescent Psychology</i>, 43(2), 323-338.<br></p>
-      <p>Chorpita, B. F., Bernstein, A., & Daleiden, E. L. (2008). Driving with roadmaps<br> and dashboards: Using information resources to structure the decision models in service organizations. <i>Administration and Policy in Mental Health and Mental Health Services Research</i>, 35(1-2), 114-123.</p>   
+      <p class="lead">Google Research Award</p>
+      <p>Posted on Jan 12 2007</p>
+      <p>Dr. Mike received a Google research award $5000, <i><a href="">click for more</a></i><br></p>
+      
+      <p class="lead">Best Paper Award</p>
+      <p>Posted on Jan 12 2007</p>
+      <p>Dr. Mike's student received best paper award, <i><a href="">click for more</a></i><br></p>
+      
+      <p class="lead">1st Place Research Poster Competition</p>
+      <p>Posted on Jan 12 2007</p>
+      <p>Dr. Mike won 1st place in a research poster competition, <i><a href="">click for more</a></i><br></p>
+      
+      <p class="lead">Published Journal Paper</p>
+      <p>Posted on Jan 12 2007</p>
+      <p>Dr. Mike published a journal paper, <i><a href="">click for more</a></i><br></p>
             </div>		
         </div>
     </div>

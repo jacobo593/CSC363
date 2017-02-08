@@ -36,7 +36,7 @@
         <div class="row">
              <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
            
-            <img src="fonts/researcher.jpg" alt=Researcher" height="420" width="420">
+            <img src="images/researcher.PNG" alt=Researcher" height="420" width="420">
             
             <p class="lead">Peter is a PhD student of Anita</p>
             <p class="lead"><b>Research Projects</b></p>   

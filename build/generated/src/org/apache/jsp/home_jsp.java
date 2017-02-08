@@ -60,37 +60,43 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
-      out.write("        <div class=\"page-header text-center black margin-none\">\r\n");
-      out.write("            <h2 class=\"white\">Faculty Website</h2>\r\n");
+      out.write("       <div class=\"page-header text-center black margin-none\">\r\n");
+      out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\r\n");
       out.write("        </div>\r\n");
       out.write("      \r\n");
       out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\r\n");
       out.write("            <div class=\"navbar black\" >\r\n");
       out.write("                <ul class=\"nav navbar-nav navbar-left black\">\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"about.html\">Create Account</a>\r\n");
+      out.write("                    <li  class=\"active\">\r\n");
+      out.write("                        <a href=\"home.jsp\">Home</a>\r\n");
       out.write("                    </li>\r\n");
       out.write("                    <li>\r\n");
-      out.write("                        <a href=\"contact.html\">Login</a>\r\n");
+      out.write("                        <a href=\"addnews.jsp\">News</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"editresearch.jsp\">Research</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"teaching.jsp\">Teaching</a>\r\n");
+      out.write("                    </li>\r\n");
+      out.write("                    <li>\r\n");
+      out.write("                        <a href=\"service.jsp\">Service</a>\r\n");
       out.write("                    </li>\r\n");
       out.write("                </ul>    \r\n");
       out.write("                   \r\n");
-      out.write("            <!-- /.navbar-collapse -->\r\n");
       out.write("        </div>\r\n");
       out.write("    \r\n");
       out.write("\r\n");
       out.write("    <!-- Page Content -->\r\n");
-      out.write("    ");
-      if (_jspx_meth_c_import_1(_jspx_page_context))
-        return;
-      out.write("\r\n");
       out.write("\r\n");
       out.write("    <div class=\"container\">\r\n");
       out.write("        <div class=\"row\">\r\n");
       out.write("             <div class=\"col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1\">\r\n");
       out.write("           \r\n");
-      out.write("            <img src=\"fonts/researcher.jpg\" alt=Researcher\" height=\"420\" width=\"420\">\r\n");
-      out.write("            \r\n");
+      out.write("            <img src=\"/fonts/home.png\" alt=\"home\" height=\"420\" width=\"420\">\r\n");
+      out.write("            </br>\r\n");
+      out.write("            </br>\r\n");
+      out.write("            </br>\r\n");
       out.write("            <p class=\"lead\">Peter is a PhD student of Anita</p>\r\n");
       out.write("            <p class=\"lead\"><b>Research Projects</b></p>   \r\n");
       out.write("         <a href=\"researchproject.jsp\">Mobile Apps Security<br></a>\r\n");
@@ -105,12 +111,12 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </div>\r\n");
       out.write("    \r\n");
       out.write("    ");
-      if (_jspx_meth_c_import_2(_jspx_page_context))
+      if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
       out.write("\r\n");
       out.write("\r\n");
       out.write("    \r\n");
-      if (_jspx_meth_c_import_3(_jspx_page_context))
+      if (_jspx_meth_c_import_2(_jspx_page_context))
         return;
       out.write('\r');
       out.write('\n');
@@ -187,7 +193,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_2.setPageContext(_jspx_page_context);
     _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("filler.html");
+    _jspx_th_c_import_2.setUrl("footer.html");
     int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
@@ -201,32 +207,6 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
     } finally {
       _jspx_th_c_import_2.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_3.setParent(null);
-    _jspx_th_c_import_3.setUrl("footer.html");
-    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
-      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_3[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_3.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_3.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
     }
     return false;
   }

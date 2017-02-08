@@ -42,17 +42,16 @@
         <div class="row">
              <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
            
-            <img src="fonts/researcher.jpg" alt=Researcher" height="420" width="420">
-            
-            <p class="lead">Peter is a PhD student of Anita</p>
-            <p class="lead"><b>Research Projects</b></p>   
-         <a href="researchproject.jsp">Mobile Apps Security<br></a>
-         <a href="researchproject.jsp">Cloud Security<br></a>
-       <a href="researchproject.jsp">Policy Advisor</a>
+            <img src="images/home.PNG" alt="home" height="420" width="420">
+            </br>
+            </br>
+            </br>
+            <p class="lead">Dr. Anita is a Professor of Computer Science at the University of Michigan. She received her PhD in Computer Science from MIT in July 2002. Her Research and teaching interests are in broad areas of network and information security. [<a href="">Resume PDF</a>]</p>
        <p></p>
-       <p class="lead"><b>Publications</b></p>
-       <p>Chorpita, B. F., & Daleiden, E. L. (2014). Structuring the collaboration of science and service in pursuit <br>of a shared vision. <i>Journal of Clinical Child & Adolescent Psychology</i>, 43(2), 323-338.<br></p>
-      <p>Chorpita, B. F., Bernstein, A., & Daleiden, E. L. (2008). Driving with roadmaps<br> and dashboards: Using information resources to structure the decision models in service organizations. <i>Administration and Policy in Mental Health and Mental Health Services Research</i>, 35(1-2), 114-123.</p>   
+       <p class="lead"><b>Google Research Award</b></p>
+       <p>Posted on Jan 12 2007</p>
+       <p>Dr. Anita received a Google research award of $5000, <i><a href="">click for more</a></i><br></p>
+      
 	    </div>		
         </div>
     </div>

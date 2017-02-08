@@ -51,43 +51,68 @@ public final class publications_jsp extends org.apache.jasper.runtime.HttpJspBas
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
       if (_jspx_meth_c_import_0(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("        \r\n");
-      out.write("    \r\n");
-      out.write("\r\n");
-      out.write("    <!-- Page Content -->\r\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("       <div class=\"page-header text-center black margin-none\">\n");
+      out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\n");
+      out.write("        </div>\n");
+      out.write("      \n");
+      out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\n");
+      out.write("            <div class=\"navbar black\" >\n");
+      out.write("                <ul class=\"nav navbar-nav navbar-left black\">\n");
+      out.write("                     <li>\n");
+      out.write("                        <a href=\"home.jsp\">Home</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"addnews.jsp\">News</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li class=\"active\">\n");
+      out.write("                        <a href=\"editresearch.jsp\">Research</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"teaching.jsp\">Teaching</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"service.jsp\">Service</a>\n");
+      out.write("                    </li>\n");
+      out.write("                </ul>    \n");
+      out.write("                   \n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        \n");
+      out.write("    \n");
+      out.write("\n");
+      out.write("    <!-- Page Content -->\n");
       out.write("    ");
       if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("    <div class=\"container\">\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1\">\r\n");
-      out.write("           \r\n");
-      out.write("      <p class=\"lead\">Publications</p>\r\n");
-      out.write("      <p>Chorpita, B. F., & Daleiden, E. L. (2014). Structuring the collaboration of science and service in pursuit <br>of a shared vision. <i>Journal of Clinical Child & Adolescent Psychology</i>, 43(2), 323-338.<br></p>\r\n");
-      out.write("      <p>Chorpita, B. F., Bernstein, A., & Daleiden, E. L. (2008). Driving with roadmaps<br> and dashboards: Using information resources to structure the decision models in service organizations. <i>Administration and Policy in Mental Health and Mental Health Services Research</i>, 35(1-2), 114-123.</p>   \r\n");
-      out.write("            </div>\t\t\r\n");
-      out.write("        </div>\r\n");
-      out.write("    </div>\r\n");
-      out.write("    \r\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <div class=\"container\">\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1\">\n");
+      out.write("           \n");
+      out.write("      <p class=\"lead\">Publications</p>\n");
+      out.write("      <p>Chorpita, B. F., & Daleiden, E. L. (2014). Structuring the collaboration of science and service in pursuit <br>of a shared vision. <i>Journal of Clinical Child & Adolescent Psychology</i>, 43(2), 323-338.<br></p>\n");
+      out.write("      <p>Chorpita, B. F., Bernstein, A., & Daleiden, E. L. (2008). Driving with roadmaps<br> and dashboards: Using information resources to structure the decision models in service organizations. <i>Administration and Policy in Mental Health and Mental Health Services Research</i>, 35(1-2), 114-123.</p>   \n");
+      out.write("            </div>\t\t\n");
+      out.write("        </div>\n");
+      out.write("    </div>\n");
+      out.write("    \n");
       out.write("    ");
       if (_jspx_meth_c_import_2(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("    \r\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    \n");
       if (_jspx_meth_c_import_3(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -109,7 +134,7 @@ public final class publications_jsp extends org.apache.jasper.runtime.HttpJspBas
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_0 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_0.setPageContext(_jspx_page_context);
     _jspx_th_c_import_0.setParent(null);
-    _jspx_th_c_import_0.setUrl("loggedheader.jsp");
+    _jspx_th_c_import_0.setUrl("header.html");
     int[] _jspx_push_body_count_c_import_0 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_0 = _jspx_th_c_import_0.doStartTag();

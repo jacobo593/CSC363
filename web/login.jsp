@@ -13,7 +13,7 @@
                     <li>
                         <a href="newaccount.jsp">Create Account</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="login.jsp">Login</a>
                     </li>
                 </ul>    
@@ -23,7 +23,6 @@
 
     <!-- Page Content -->
     
-    <c:import url="filler.html"/>
 
     
     <form action="bio.jsp" method="post">
@@ -49,7 +48,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-4">
                 <input type="submit" class="btn btn-success btn-send" value="Login">
             </div>
         </div>
@@ -65,6 +64,8 @@
 <br>
 <br>
 <br>
+
+<c:import url="filler.html"/>
 
        
 <c:import url="footer.html"/>

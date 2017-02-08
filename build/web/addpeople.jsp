@@ -1,30 +1,32 @@
-<%-- 
-    Document   : index
-    Created on : Jan 29, 2017, 3:45:20 PM
-    Author     : jake
---%>
-
 
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:import url="header.html"/>
 
 
         <div class="page-header text-center black margin-none">
-            <h2 class="white">Faculty Website</h2>
+            <h2 class="white">Welcome Dr. Anita</h2>
         </div>
       
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
-                    <li>
-                        <a href="about.html">Create Account</a>
+                     <li>
+                        <a href="bio.jsp">Bio</a>
                     </li>
                     <li>
-                        <a href="contact.html">Login</a>
+                        <a href="addnews.jsp">News</a>
+                    </li>
+                    <li class="active">
+                        <a href="editresearch.jsp">Research</a>
+                    </li>
+                    <li>
+                        <a href="teaching.jsp">Teaching</a>
+                    </li>
+                    <li>
+                        <a href="service.jsp">Service</a>
                     </li>
                 </ul>    
                    
-            <!-- /.navbar-collapse -->
         </div>
     
 

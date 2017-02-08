@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class news_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -51,14 +51,16 @@ public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write('\n');
-      out.write('\n');
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
       if (_jspx_meth_c_import_0(_jspx_page_context))
         return;
       out.write("\n");
       out.write("\n");
       out.write("\n");
-      out.write("        <div class=\"page-header text-center black margin-none\">\n");
+      out.write("       <div class=\"page-header text-center black margin-none\">\n");
       out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\n");
       out.write("        </div>\n");
       out.write("      \n");
@@ -66,12 +68,12 @@ public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <div class=\"navbar black\" >\n");
       out.write("                <ul class=\"nav navbar-nav navbar-left black\">\n");
       out.write("                     <li>\n");
-      out.write("                        <a href=\"bio.jsp\">Bio</a>\n");
-      out.write("                    </li>\n");
-      out.write("                    <li>\n");
-      out.write("                        <a href=\"addnews.jsp\">News</a>\n");
+      out.write("                        <a href=\"home.jsp\">Home</a>\n");
       out.write("                    </li>\n");
       out.write("                    <li class=\"active\">\n");
+      out.write("                        <a href=\"addnews.jsp\">News</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
       out.write("                        <a href=\"editresearch.jsp\">Research</a>\n");
       out.write("                    </li>\n");
       out.write("                    <li>\n");
@@ -85,118 +87,30 @@ public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>\n");
       out.write("    \n");
       out.write("\n");
-      out.write("            \n");
-      out.write("            \n");
-      out.write("            \n");
       out.write("    <!-- Page Content -->\n");
-      out.write("    <div>\n");
-      out.write("        <h3>Add People</h3>\n");
-      out.write("\n");
-      out.write("        </br></br>\n");
-      out.write("    </div>\n");
-      out.write("        \n");
-      out.write("\n");
-      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"addition-format.css\" media=\"screen\" />\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<form  method=\"post\">\n");
-      out.write("    <div class=\"messages\"></div>\n");
-      out.write("    <div class=\"controls\">\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
-      out.write("                <div class=\"form-group\">\n");
-      out.write("                    <label>Title *</label>\n");
-      out.write("                    <input  type=\"text\" name=\"title\" class=\"form-control\" placeholder=\"Please enter title\" required=\"required\" data-error=\"title is required\">\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
-      out.write("                <div class=\"form-group\">\n");
-      out.write("                    <label>Email*</label>\n");
-      out.write("                    <input  type=\"text\" name=\"email\" class=\"form-control\" placeholder=\"Please enter your email\">\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
-      out.write("                <div class=\"form-group\">\n");
-      out.write("                    <label>Bio</label>\n");
-      out.write("                    <textarea rows=\"5\" cols=\"55\" placeholder=\"Enter bio here\" class=\"form-control\"></textarea>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
-      out.write("                <div class=\"form-group\">\n");
-      out.write("                    <label>Personal Pic*</label>\n");
-      out.write("                    <input type=\"file\" name=\"personalPic\" class=\"form-control\">\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>        \n");
-      out.write("        \n");
-      out.write("        \n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
-      out.write("                <div class=\"form-group\">\n");
-      out.write("                    <label>Resume</label>\n");
-      out.write("                    <input type=\"file\" name=\"resume\" class=\"form-control\">\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("\n");
-      out.write("        \n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\n");
-      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Submit\">\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
-      out.write("</form>\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!--        <div class=\"container\">            \n");
-      out.write("\n");
-      out.write("            <form action=\"AddPeople\" method=\"POST\">\n");
-      out.write("                <label>Title*</label>\n");
-      out.write("                <input type=\"text\" name=\"title*\" /></br></br>\n");
-      out.write("\n");
-      out.write("                <label>Email</label>\n");
-      out.write("                <input type=\"text\" name=\"email\" value=\"\" /></br></br>\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("                <label>Bio*</label>\n");
-      out.write("                <textarea name=\"bio\" rows=\"4\" cols=\"19\">\n");
-      out.write("                </textarea></br></br>\n");
-      out.write("\n");
-      out.write("                <label>Personal Pic*</label>\n");
-      out.write("                <input type=\"file\" name=\"personal_pic\" value=\"\" /></br></br>\n");
-      out.write("                \n");
-      out.write("                <label>Resume*</label>\n");
-      out.write("                <input type=\"file\" name=\"resume\" value=\"\" /></br>\n");
-      out.write("\n");
-      out.write("                <input type=\"submit\" value=\"Submit\"/><br>\n");
-      out.write("                </br></br></br>\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("                \n");
-      out.write("            </form>\n");
-      out.write("        </div>-->\n");
-      out.write("    \n");
-      out.write("\n");
-      out.write("    \n");
       out.write("    ");
       if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
       out.write("\n");
       out.write("\n");
+      out.write("    <div class=\"container\">\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1\">\n");
+      out.write("           \n");
+      out.write("      <p class=\"lead\">News</p>\n");
+      out.write("      <p>Chorpita, B. F., & Daleiden, E. L. (2014). Structuring the collaboration of science and service in pursuit <br>of a shared vision. <i>Journal of Clinical Child & Adolescent Psychology</i>, 43(2), 323-338.<br></p>\n");
+      out.write("      <p>Chorpita, B. F., Bernstein, A., & Daleiden, E. L. (2008). Driving with roadmaps<br> and dashboards: Using information resources to structure the decision models in service organizations. <i>Administration and Policy in Mental Health and Mental Health Services Research</i>, 35(1-2), 114-123.</p>   \n");
+      out.write("            </div>\t\t\n");
+      out.write("        </div>\n");
+      out.write("    </div>\n");
       out.write("    \n");
+      out.write("    ");
       if (_jspx_meth_c_import_2(_jspx_page_context))
+        return;
+      out.write("\n");
+      out.write("\n");
+      out.write("    \n");
+      if (_jspx_meth_c_import_3(_jspx_page_context))
         return;
       out.write('\n');
     } catch (Throwable t) {
@@ -272,7 +186,7 @@ public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_2.setPageContext(_jspx_page_context);
     _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("footer.html");
+    _jspx_th_c_import_2.setUrl("filler.html");
     int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
@@ -286,6 +200,32 @@ public final class addpeople_jsp extends org.apache.jasper.runtime.HttpJspBase
     } finally {
       _jspx_th_c_import_2.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:import
+    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
+    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
+    _jspx_th_c_import_3.setParent(null);
+    _jspx_th_c_import_3.setUrl("footer.html");
+    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
+    try {
+      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
+      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        return true;
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_c_import_3[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_c_import_3.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_c_import_3.doFinally();
+      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
     }
     return false;
   }

@@ -9,27 +9,34 @@
 <c:import url="header.html"/>
 
 
-        <div class="page-header text-center black margin-none">
-            <h2 class="white">Faculty Website</h2>
+       <div class="page-header text-center black margin-none">
+            <h2 class="white">Welcome Dr. Anita</h2>
         </div>
       
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
-                    <li>
-                        <a href="about.html">Create Account</a>
+                    <li  class="active">
+                        <a href="home.jsp">Home</a>
                     </li>
                     <li>
-                        <a href="contact.html">Login</a>
+                        <a href="addnews.jsp">News</a>
+                    </li>
+                    <li>
+                        <a href="editresearch.jsp">Research</a>
+                    </li>
+                    <li>
+                        <a href="teaching.jsp">Teaching</a>
+                    </li>
+                    <li>
+                        <a href="service.jsp">Service</a>
                     </li>
                 </ul>    
                    
-            <!-- /.navbar-collapse -->
         </div>
     
 
     <!-- Page Content -->
-    <c:import url="filler.html"/>
 
     <div class="container">
         <div class="row">

@@ -13,7 +13,7 @@
                      <li>
                         <a href="bio.jsp">Bio</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="addnews.jsp">News</a>
                     </li>
                     <li>
@@ -31,10 +31,7 @@
     
 
     <!-- Page Content -->
-    
-    <c:import url="filler.html"/>
-
-    
+       
     <form  method="post">
     <div class="messages"></div>
     <div class="controls">
@@ -60,7 +57,7 @@
             <div class="col-lg-3 col-lg-offset-4 ">
                 <div class="form-group">
                     <label>Description</label>
-                    <textarea rows="5" cols="55" placeholder="Enter bio here" class="form-control"></textarea>
+                    <textarea rows="5" cols="55" placeholder="Enter description here" class="form-control"></textarea>
                 </div>
             </div>
         </div>

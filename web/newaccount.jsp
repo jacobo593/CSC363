@@ -10,7 +10,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
-                    <li>
+                    <li class="active">
                         <a href="newaccount.jsp">Create Account</a>
                     </li>
                     <li>
@@ -22,10 +22,7 @@
     
 
     <!-- Page Content -->
-    
-    <c:import url="filler.html"/>
-
-    
+ 
     <form action="bio.jsp"  method="post">
     <div class="messages"></div>
     <div class="controls">

@@ -16,7 +16,7 @@
                     <li>
                         <a href="addnews.jsp">News</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="editresearch.jsp">Research</a>
                     </li>
                     <li>

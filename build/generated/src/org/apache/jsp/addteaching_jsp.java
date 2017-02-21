@@ -100,7 +100,9 @@ public final class addteaching_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"addition-format.css\" media=\"screen\" />\n");
       out.write("\n");
-      out.write("\n");
+      out.write("<div class=\"container\">\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("    \t<div class=\"col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1\">\n");
       out.write("<form  method=\"post\">\n");
       out.write("    <div class=\"messages\"></div>\n");
       out.write("    <div class=\"controls\">\n");
@@ -157,7 +159,9 @@ public final class addteaching_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>\n");
       out.write("    </div>\n");
       out.write("</form>\n");
-      out.write("\n");
+      out.write("        </div>\n");
+      out.write("        </div>\n");
+      out.write("</div>\n");
       out.write("<!--        <div class=\"container\">            \n");
       out.write("\n");
       out.write("            <form action=\"AddTeaching\" method=\"POST\">\n");

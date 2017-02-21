@@ -14,8 +14,8 @@
         </div>
       
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar black" >
-                <ul class="nav navbar-nav navbar-left black">
+            <div class="nav black" >
+                <ul class=" nav navbar-nav navbar-left black">
                     <li>
                         <a href="newaccount.jsp">Create Account</a>
                     </li>
@@ -29,20 +29,21 @@
     
 
     <!-- Page Content -->
-    <c:import url="filler.html"/>
-
-    <div class="container">
+<br>
+<br>
+<br>
+    <div class="container ">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
             <h2 class="section-heading">Welcome Faculty!</h2>
             <p class="lead">If you have an account click on the login link.<br>
                             Otherwise click on the create account link.</p>
-       
 	    </div>		
         </div>
     </div>
-    
-    <c:import url="filler.html"/>
+    <br>
+    <br>
+
 
     
 <c:import url="footer.html"/>

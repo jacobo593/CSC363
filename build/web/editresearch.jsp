@@ -32,7 +32,6 @@
 
     <!-- Page Content -->
     
-    <c:import url="filler.html"/>
 
     
     <a class="col-lg-3 col-lg-offset-4" href="addresearchprj.jsp"><h1>Research Projects</h1></a>
@@ -46,8 +45,9 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
     
- <c:import url="filler.html"/>
 
 
        

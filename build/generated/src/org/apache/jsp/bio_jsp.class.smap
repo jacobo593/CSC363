@@ -1,10 +1,10 @@
 SMAP
-addnews_jsp.java
+bio_jsp.java
 JSP
 *S JSP
 *F
-+ 0 addnews.jsp
-addnews.jsp
++ 0 bio.jsp
+bio.jsp
 *L
 1,2:54
 3:171,7

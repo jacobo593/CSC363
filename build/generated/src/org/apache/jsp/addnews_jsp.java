@@ -51,109 +51,105 @@ public final class addnews_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
       if (_jspx_meth_c_import_0(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("        <div class=\"page-header text-center black margin-none\">\r\n");
-      out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\r\n");
-      out.write("        </div>\r\n");
-      out.write("      \r\n");
-      out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\r\n");
-      out.write("            <div class=\"navbar black\" >\r\n");
-      out.write("                <ul class=\"nav navbar-nav navbar-left black\">\r\n");
-      out.write("                     <li>\r\n");
-      out.write("                        <a href=\"bio.jsp\">Bio</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                    <li class=\"active\">\r\n");
-      out.write("                        <a href=\"addnews.jsp\">News</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"editresearch.jsp\">Research</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"teaching.jsp\">Teaching</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"service.jsp\">Service</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                </ul>    \r\n");
-      out.write("                   \r\n");
-      out.write("        </div>\r\n");
-      out.write("    \r\n");
-      out.write("\r\n");
-      out.write("    <!-- Page Content -->\r\n");
-      out.write("       \r\n");
-      out.write("    <form  method=\"post\">\r\n");
-      out.write("    <div class=\"messages\"></div>\r\n");
-      out.write("    <div class=\"controls\">\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Title *</label>\r\n");
-      out.write("                    <input  type=\"text\" name=\"title\" class=\"form-control\" placeholder=\"Please enter title\" required=\"required\" data-error=\"title is required\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>URL</label>\r\n");
-      out.write("                    <input  type=\"text\" name=\"url\" class=\"form-control\" placeholder=\"Please enter url\" >\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Description</label>\r\n");
-      out.write("                    <textarea rows=\"5\" cols=\"55\" placeholder=\"Enter description here\" class=\"form-control\"></textarea>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
-      out.write("                <div class=\"checkbox\">\r\n");
-      out.write("                    <label>\r\n");
-      out.write("                        <input type=\"checkbox\" value=\"\">Check this box if you want news to appear on home page.\r\n");
-      out.write("                    </label>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Image</label>\r\n");
-      out.write("                    <input type=\"file\" name=\"newsImage\" class=\"form-control\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        \r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\r\n");
-      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Submit\">\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("    </div>\r\n");
-      out.write("</form>\r\n");
-      out.write("    \r\n");
-      out.write(" ");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        <div class=\"page-header text-center black margin-none\">\n");
+      out.write("            <h2 class=\"white\">Welcome Dr. Anita</h2>\n");
+      out.write("        </div>\n");
+      out.write("      \n");
+      out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\n");
+      out.write("            <div class=\"navbar black\" >\n");
+      out.write("                <ul class=\"nav navbar-nav navbar-left black\">\n");
+      out.write("                     <li>\n");
+      out.write("                        <a href=\"bio.jsp\">Bio</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li class=\"active\">\n");
+      out.write("                        <a href=\"addnews.jsp\">News</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"editresearch.jsp\">Research</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"teaching.jsp\">Teaching</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"service.jsp\">Service</a>\n");
+      out.write("                    </li>\n");
+      out.write("                </ul>    \n");
+      out.write("                   \n");
+      out.write("        </div>\n");
+      out.write("    \n");
+      out.write("\n");
+      out.write("    <!-- Page Content -->\n");
+      out.write("       \n");
+      out.write("    <form  method=\"post\">\n");
+      out.write("    <div class=\"messages\"></div>\n");
+      out.write("    <div class=\"controls\">\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Title *</label>\n");
+      out.write("                    <input  type=\"text\" name=\"title\" class=\"form-control\" placeholder=\"Please enter title\" required=\"required\" data-error=\"title is required\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>URL</label>\n");
+      out.write("                    <input  type=\"text\" name=\"url\" class=\"form-control\" placeholder=\"Please enter url\" >\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Description</label>\n");
+      out.write("                    <textarea rows=\"5\" cols=\"55\" placeholder=\"Enter description here\" class=\"form-control\"></textarea>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
+      out.write("                <div class=\"checkbox\">\n");
+      out.write("                    <label>\n");
+      out.write("                        <input type=\"checkbox\" value=\"\">Check this box if you want news to appear on home page.\n");
+      out.write("                    </label>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Image</label>\n");
+      out.write("                    <input type=\"file\" name=\"newsImage\" class=\"form-control\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        \n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\n");
+      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Submit\">\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("    </div>\n");
+      out.write("</form>\n");
+      out.write("    \n");
+      out.write("\n");
+      out.write("\n");
+      out.write("       \n");
       if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("       \r\n");
-      if (_jspx_meth_c_import_2(_jspx_page_context))
-        return;
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -201,7 +197,7 @@ public final class addnews_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_1 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_1.setPageContext(_jspx_page_context);
     _jspx_th_c_import_1.setParent(null);
-    _jspx_th_c_import_1.setUrl("filler.html");
+    _jspx_th_c_import_1.setUrl("footer.html");
     int[] _jspx_push_body_count_c_import_1 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_1 = _jspx_th_c_import_1.doStartTag();
@@ -215,32 +211,6 @@ public final class addnews_jsp extends org.apache.jasper.runtime.HttpJspBase
     } finally {
       _jspx_th_c_import_1.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_1);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_2(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_2.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("footer.html");
-    int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
-      if (_jspx_th_c_import_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_2[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_2.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_2.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
     }
     return false;
   }

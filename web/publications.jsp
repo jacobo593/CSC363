@@ -36,7 +36,6 @@
     
 
     <!-- Page Content -->
-    <c:import url="filler.html"/>
 
     <div class="container">
         <div class="row">
@@ -49,7 +48,9 @@
         </div>
     </div>
     
-    <c:import url="filler.html"/>
+    <br>
+    <br>
+    
 
     
 <c:import url="footer.html"/>

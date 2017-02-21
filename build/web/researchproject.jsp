@@ -57,7 +57,6 @@
         </div>
     </div>
     
-    <c:import url="filler.html"/>
 
     
 <c:import url="footer.html"/>

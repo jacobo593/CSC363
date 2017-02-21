@@ -23,8 +23,8 @@
 
     <!-- Page Content -->
     
-
-    
+    <div class="container">
+        <div class="row">
     <form action="bio.jsp" method="post">
     <div class="messages"></div>
     <div class="controls">
@@ -54,19 +54,17 @@
         </div>
     </div>
 </form>
-
+        </div>
+    </div>
 <br>
 <br>
 
-   
-    <a class="col-lg-3 col-lg-offset-4" href="newaccount.jsp">Sign up for a new account</a>
+<div class="col-lg-3 col-lg-offset-4">
+    <a  href="newaccount.jsp">Sign up for a new account</a>
+</div>
 
-<br>
-<br>
-<br>
 
-<c:import url="filler.html"/>
 
-       
+     
 <c:import url="footer.html"/>
 

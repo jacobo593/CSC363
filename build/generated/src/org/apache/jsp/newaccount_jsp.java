@@ -51,97 +51,87 @@ public final class newaccount_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
       if (_jspx_meth_c_import_0(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("        <div class=\"page-header text-center black margin-none\">\r\n");
-      out.write("            <h2 class=\"white\">Faculty Website</h2>\r\n");
-      out.write("        </div>\r\n");
-      out.write("      \r\n");
-      out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\r\n");
-      out.write("            <div class=\"navbar black\" >\r\n");
-      out.write("                <ul class=\"nav navbar-nav navbar-left black\">\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"newaccount.jsp\">Create Account</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                    <li>\r\n");
-      out.write("                        <a href=\"login.jsp\">Login</a>\r\n");
-      out.write("                    </li>\r\n");
-      out.write("                </ul>    \r\n");
-      out.write("                   \r\n");
-      out.write("        </div>\r\n");
-      out.write("    \r\n");
-      out.write("\r\n");
-      out.write("    <!-- Page Content -->\r\n");
-      out.write("    \r\n");
-      out.write("    ");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        <div class=\"page-header text-center black margin-none\">\n");
+      out.write("            <h2 class=\"white\">Faculty Website</h2>\n");
+      out.write("        </div>\n");
+      out.write("      \n");
+      out.write("            <!-- Collect the nav links, forms, and other content for toggling -->\n");
+      out.write("            <div class=\"navbar black\" >\n");
+      out.write("                <ul class=\"nav navbar-nav navbar-left black\">\n");
+      out.write("                    <li class=\"active\">\n");
+      out.write("                        <a href=\"newaccount.jsp\">Create Account</a>\n");
+      out.write("                    </li>\n");
+      out.write("                    <li>\n");
+      out.write("                        <a href=\"login.jsp\">Login</a>\n");
+      out.write("                    </li>\n");
+      out.write("                </ul>    \n");
+      out.write("                   \n");
+      out.write("        </div>\n");
+      out.write("    \n");
+      out.write("\n");
+      out.write("    <!-- Page Content -->\n");
+      out.write(" \n");
+      out.write("    <form action=\"bio.jsp\"  method=\"post\">\n");
+      out.write("    <div class=\"messages\"></div>\n");
+      out.write("    <div class=\"controls\">\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Name *</label>\n");
+      out.write("                    <input  type=\"text\" name=\"name\" class=\"form-control\" placeholder=\"Please enter name\" required=\"required\" data-error=\"Email is required\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Email Address *</label>\n");
+      out.write("                    <input  type=\"text\" name=\"email\" class=\"form-control\" placeholder=\"Please enter email\" required=\"required\" data-error=\"Email is required\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Password *</label>\n");
+      out.write("                    <input type=\"password\" name=\"password\" class=\"form-control\" placeholder=\"password\" required=\"required\" data-error=\"Password is required\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\n");
+      out.write("                <div class=\"form-group\">\n");
+      out.write("                    <label>Confirm Password *</label>\n");
+      out.write("                    <input type=\"password\" name=\"confrim_password\" class=\"form-control\" placeholder=\"Confirm password\" required=\"required\" data-error=\"Confirm password required\">\n");
+      out.write("                    <div class=\"help-block with-errors\"></div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\n");
+      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Create Account\" >\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("    </div>\n");
+      out.write("</form>\n");
+      out.write("    \n");
+      out.write("\n");
+      out.write("\n");
+      out.write("       \n");
       if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("    \r\n");
-      out.write("    <form action=\"bio.jsp\"  method=\"post\">\r\n");
-      out.write("    <div class=\"messages\"></div>\r\n");
-      out.write("    <div class=\"controls\">\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Name *</label>\r\n");
-      out.write("                    <input  type=\"text\" name=\"name\" class=\"form-control\" placeholder=\"Please enter name\" required=\"required\" data-error=\"Email is required\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4 \">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Email Address *</label>\r\n");
-      out.write("                    <input  type=\"text\" name=\"email\" class=\"form-control\" placeholder=\"Please enter email\" required=\"required\" data-error=\"Email is required\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Password *</label>\r\n");
-      out.write("                    <input type=\"password\" name=\"password\" class=\"form-control\" placeholder=\"password\" required=\"required\" data-error=\"Password is required\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-3 col-lg-offset-4\">\r\n");
-      out.write("                <div class=\"form-group\">\r\n");
-      out.write("                    <label>Confirm Password *</label>\r\n");
-      out.write("                    <input type=\"password\" name=\"confrim_password\" class=\"form-control\" placeholder=\"Confirm password\" required=\"required\" data-error=\"Confirm password required\">\r\n");
-      out.write("                    <div class=\"help-block with-errors\"></div>\r\n");
-      out.write("                </div>\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("        <div class=\"row\">\r\n");
-      out.write("            <div class=\"col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1\">\r\n");
-      out.write("                <input type=\"submit\" class=\"btn btn-success btn-send\" value=\"Create Account\" >\r\n");
-      out.write("            </div>\r\n");
-      out.write("        </div>\r\n");
-      out.write("    </div>\r\n");
-      out.write("</form>\r\n");
-      out.write("    \r\n");
-      out.write(" ");
-      if (_jspx_meth_c_import_2(_jspx_page_context))
-        return;
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("       \r\n");
-      if (_jspx_meth_c_import_3(_jspx_page_context))
-        return;
-      out.write("\r\n");
-      out.write("\r\n");
+      out.write('\n');
+      out.write('\n');
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -189,7 +179,7 @@ public final class newaccount_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_1 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_1.setPageContext(_jspx_page_context);
     _jspx_th_c_import_1.setParent(null);
-    _jspx_th_c_import_1.setUrl("filler.html");
+    _jspx_th_c_import_1.setUrl("footer.html");
     int[] _jspx_push_body_count_c_import_1 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_1 = _jspx_th_c_import_1.doStartTag();
@@ -203,58 +193,6 @@ public final class newaccount_jsp extends org.apache.jasper.runtime.HttpJspBase
     } finally {
       _jspx_th_c_import_1.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_1);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_2(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_2.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("filler.html");
-    int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
-      if (_jspx_th_c_import_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_2[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_2.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_2.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_3.setParent(null);
-    _jspx_th_c_import_3.setUrl("footer.html");
-    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
-      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_3[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_3.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_3.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
     }
     return false;
   }

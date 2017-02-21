@@ -71,7 +71,7 @@ public final class editresearch_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("                    <li>\n");
       out.write("                        <a href=\"addnews.jsp\">News</a>\n");
       out.write("                    </li>\n");
-      out.write("                    <li>\n");
+      out.write("                    <li class=\"active\">\n");
       out.write("                        <a href=\"editresearch.jsp\">Research</a>\n");
       out.write("                    </li>\n");
       out.write("                    <li>\n");
@@ -87,10 +87,6 @@ public final class editresearch_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\n");
       out.write("    <!-- Page Content -->\n");
       out.write("    \n");
-      out.write("    ");
-      if (_jspx_meth_c_import_1(_jspx_page_context))
-        return;
-      out.write("\n");
       out.write("\n");
       out.write("    \n");
       out.write("    <a class=\"col-lg-3 col-lg-offset-4\" href=\"addresearchprj.jsp\"><h1>Research Projects</h1></a>\n");
@@ -104,15 +100,13 @@ public final class editresearch_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("    <br>\n");
       out.write("    <br>\n");
       out.write("    <br>\n");
+      out.write("    <br>\n");
+      out.write("    <br>\n");
       out.write("    \n");
-      out.write(" ");
-      if (_jspx_meth_c_import_2(_jspx_page_context))
-        return;
-      out.write("\n");
       out.write("\n");
       out.write("\n");
       out.write("       \n");
-      if (_jspx_meth_c_import_3(_jspx_page_context))
+      if (_jspx_meth_c_import_1(_jspx_page_context))
         return;
       out.write("\n");
       out.write("\n");
@@ -164,7 +158,7 @@ public final class editresearch_jsp extends org.apache.jasper.runtime.HttpJspBas
     org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_1 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
     _jspx_th_c_import_1.setPageContext(_jspx_page_context);
     _jspx_th_c_import_1.setParent(null);
-    _jspx_th_c_import_1.setUrl("filler.html");
+    _jspx_th_c_import_1.setUrl("footer.html");
     int[] _jspx_push_body_count_c_import_1 = new int[] { 0 };
     try {
       int _jspx_eval_c_import_1 = _jspx_th_c_import_1.doStartTag();
@@ -178,58 +172,6 @@ public final class editresearch_jsp extends org.apache.jasper.runtime.HttpJspBas
     } finally {
       _jspx_th_c_import_1.doFinally();
       _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_1);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_2(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_2.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("filler.html");
-    int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
-      if (_jspx_th_c_import_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_2[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_2.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_2.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_3.setParent(null);
-    _jspx_th_c_import_3.setUrl("footer.html");
-    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
-      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_3[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_3.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_3.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
     }
     return false;
   }

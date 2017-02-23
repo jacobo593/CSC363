@@ -7,15 +7,12 @@ package assignment1classes;
 
 /**
  *
- * @author Tim
+ * @author Cobal
  */
-public class Research {
+public class Project {
+    
     String title;
     String description;
-    
-    public Research() {
-        
-    }
 
     public String getTitle() {
         return title;
@@ -32,6 +29,4 @@ public class Research {
     public void setDescription(String description) {
         this.description = description;
     }
-    
-    
 }

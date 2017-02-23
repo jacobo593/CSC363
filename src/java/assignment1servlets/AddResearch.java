@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import assignment1classes.Research;
+//import assignment1classes.Research;
 
 /**
  *
@@ -85,12 +85,12 @@ public class AddResearch extends HttpServlet {
         message = "";
         url = "/research.jsp";
 
-        Research research = new Research();
-        research.setTitle(title);
-        research.setDescription(description);
-        
-        request.setAttribute("research", research);
-        request.setAttribute("message", message);
+//        Research research = new Research();
+//        research.setTitle(title);
+//        research.setDescription(description);
+//        
+//        request.setAttribute("research", research);
+//        request.setAttribute("message", message);
 
         getServletContext()
                 .getRequestDispatcher(url)

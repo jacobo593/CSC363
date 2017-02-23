@@ -59,6 +59,8 @@ public class WebSiteController extends HttpServlet {
         String url = "/main.jsp";
         String action = request.getParameter("action");
         HttpSession session = request.getSession(false);
+        String username = (String) session.getAttribute(username);
+        String facultyname = (String) session.getAttribute(facultyname);
         if(action.equalsIgnoreCase("")){
             url = "/main.jsp";
         }
@@ -72,10 +74,10 @@ public class WebSiteController extends HttpServlet {
             url = "/bio.jsp";
         }
         else if(action.equalsIgnoreCase("news")){
-           if(session == username){
+           if(username != null){
             url = "/addnews.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/news.jsp";
            }
            else {
@@ -83,7 +85,7 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("home")){
-           if(session == facultyname){
+           if(facultyname != null){
            url = "/home.jsp";
            }
            else {
@@ -91,10 +93,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("viewsearch")){
-            if(session == username){
+            if(username != null){
             url = "/editresearch.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/research.jsp";
            }
            else {
@@ -102,10 +104,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("resproj")){
-             if(session == username){
+             if(username != null){
             url = "/addresearchproj.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/researchproj.jsp";
            }
            else {
@@ -113,10 +115,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("pub")){
-             if(session == username){
+             if(username != null){
             url = "/addpub.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/publications.jsp";
            }
            else {
@@ -124,10 +126,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("personal")){
-             if(session == username){
+             if(username != null){
             url = "/addpeople.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/researcher.jsp";
            }
            else {
@@ -135,10 +137,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("teach")){
-             if(session == username){
+             if(username != null){
             url = "/addteaching.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/teaching.jsp";
            }
            else {
@@ -146,10 +148,10 @@ public class WebSiteController extends HttpServlet {
            }
         }
         else if(action.equalsIgnoreCase("service")){
-             if(session == username){
+             if(username != null){
             url = "/addservice.jsp";
            }
-           else if(session == facultyname){
+           else if(facultyname != null){
            url = "/service.jsp";
            }
            else {

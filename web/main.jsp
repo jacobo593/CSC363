@@ -10,7 +10,7 @@
 
 
        <div class="page-header text-center black margin-none">
-            <h2 class="white">Welcome Dr. Anita</h2>
+            <h2 class="white">Welcome ${username}</h2>
         </div>
       
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,8 +37,57 @@
     
 
     <!-- Page Content -->
-
+    
     <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
+                <p class="lead">Welcome Faculty!</p>
+                <p>If you have an account, please click on the Login link</p>
+                <p>If you want to create an account, please click on the Create Account link</p>
+                <p>Otherwise, choose from the list below and hit View Faculty Website<br></p>
+            </div>		
+        </div>
+    </div>
+    
+    
+<div class="container">
+        <div class="row">
+    	<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+<form  action="WebSiteController" method="POST">
+    <div class="messages"></div>
+    <div class="controls">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-4 ">
+                <div class="form-group">
+                    <label>Select Faculty</label><br>
+                    <select name="facultyname">
+                        <option value="Dr. Anita">Dr. Anita</option>
+                        <option value="Dr. Mike">Dr. Mike</option>
+                        <option value="Dr. Jennifer">Dr. Jennifer</option>
+                        <option value="Dr. Mark">Dr. Mark</option>
+                        <option value="Dr. Lucy">Dr. Lucy</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" name="action" value="browsing"/>
+        
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-4 col-md-10 col-md-offset-1">
+                <input type="submit" class="btn btn-success btn-send" value="View Faculty Website">
+            </div>
+        </div>
+    </div>
+</form>
+        </div>
+        </div>
+</div>
+    
+    
+
+<!--    <div class="container">
         <div class="row">
              <div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">
            
@@ -54,7 +103,7 @@
       
 	    </div>		
         </div>
-    </div>
+    </div>-->
     
 
     

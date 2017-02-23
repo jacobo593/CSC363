@@ -4,7 +4,7 @@
 
 
          <div class="page-header text-center black margin-none">
-            <h2 class="white">Welcome Dr. Anita</h2>
+            <h2 class="white">Welcome ${username}</h2>
         </div>
       
             <!-- Collect the nav links, forms, and other content for toggling -->

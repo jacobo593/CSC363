@@ -16,8 +16,13 @@ public class News {
     String date;
     String description;
     String url;
+
+
     // need to add image variable
     boolean homepage;
+    
+    public News() {
+    }
 
     public String getId() {
         return id;

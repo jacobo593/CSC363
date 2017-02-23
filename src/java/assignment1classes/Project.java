@@ -14,6 +14,9 @@ public class Project {
     String title;
     String description;
 
+    public Project() {
+    }
+
     public String getTitle() {
         return title;
     }

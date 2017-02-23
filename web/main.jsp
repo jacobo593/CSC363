@@ -17,19 +17,19 @@
             <div class="navbar black" >
                 <ul class="nav navbar-nav navbar-left black">
                     <li  class="active">
-                        <a href="home.jsp">Home</a>
+                        <a href="WebSiteController?action=bio">Bio</a>
+                    </li>
+                    <li class="active">
+                        <a href="WebSiteController?action=news">News</a>
                     </li>
                     <li>
-                        <a href="addnews.jsp">News</a>
+                        <a href="WebSiteController?action=viewresearch">Research</a>
                     </li>
                     <li>
-                        <a href="editresearch.jsp">Research</a>
+                        <a href="WebSiteController?action=teach">Teaching</a>
                     </li>
                     <li>
-                        <a href="teaching.jsp">Teaching</a>
-                    </li>
-                    <li>
-                        <a href="service.jsp">Service</a>
+                        <a href="WebSiteController?action=service">Service</a>
                     </li>
                 </ul>    
                    

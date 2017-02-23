@@ -18,6 +18,9 @@ public class User {
     String picURL;
     String resumeURL;
 
+    public User() {
+    }
+
     public String getName() {
         return name;
     }

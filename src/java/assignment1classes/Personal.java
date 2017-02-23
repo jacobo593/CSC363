@@ -18,6 +18,9 @@ public class Personal {
     String resumeURL;
     String title;
 
+    public Personal() {
+    }
+
     public String getName() {
         return name;
     }

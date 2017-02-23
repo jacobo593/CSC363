@@ -20,7 +20,7 @@
                         <a href="editresearch.jsp">Research</a>
                     </li>
                     <li>
-                        <a href="teaching.jsp">Teaching</a>
+                        <a href="addteaching.jsp">Teaching</a>
                     </li>
                     <li>
                         <a href="service.jsp">Service</a>

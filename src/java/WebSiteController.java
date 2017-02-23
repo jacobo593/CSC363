@@ -58,7 +58,7 @@ public class WebSiteController extends HttpServlet {
         //processRequest(request, response);
         String url = "/main.jsp";
         String action = request.getParameter("action");
-        
+        HttpSession session = request.getSession(false);
         if(action.equalsIgnoreCase("")){
             url = "/main.jsp";
         }
@@ -72,28 +72,89 @@ public class WebSiteController extends HttpServlet {
             url = "/bio.jsp";
         }
         else if(action.equalsIgnoreCase("news")){
+           if(session == username){
+            url = "/addnews.jsp";
+           }
+           else if(session == facultyname){
+           url = "/news.jsp";
+           }
+           else {
            url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("home")){
+           if(session == facultyname){
+           url = "/home.jsp";
+           }
+           else {
            url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("viewsearch")){
+            if(session == username){
+            url = "/editresearch.jsp";
+           }
+           else if(session == facultyname){
+           url = "/research.jsp";
+           }
+           else {
            url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("resproj")){
-            url = "/main.jsp";
+             if(session == username){
+            url = "/addresearchproj.jsp";
+           }
+           else if(session == facultyname){
+           url = "/researchproj.jsp";
+           }
+           else {
+           url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("pub")){
-            url = "/main.jsp";
+             if(session == username){
+            url = "/addpub.jsp";
+           }
+           else if(session == facultyname){
+           url = "/publications.jsp";
+           }
+           else {
+           url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("personal")){
-            url = "/main.jsp";
+             if(session == username){
+            url = "/addpeople.jsp";
+           }
+           else if(session == facultyname){
+           url = "/researcher.jsp";
+           }
+           else {
+           url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("teach")){
-            url = "/main.jsp";
+             if(session == username){
+            url = "/addteaching.jsp";
+           }
+           else if(session == facultyname){
+           url = "/teaching.jsp";
+           }
+           else {
+           url = "/main.jsp";
+           }
         }
         else if(action.equalsIgnoreCase("service")){
-            url = "/main.jsp";
+             if(session == username){
+            url = "/addservice.jsp";
+           }
+           else if(session == facultyname){
+           url = "/service.jsp";
+           }
+           else {
+           url = "/main.jsp";
+           }
         }
         getServletContext().getRequestDispatcher(url).forward(request, response);
     }

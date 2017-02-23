@@ -14,7 +14,7 @@
                         <a href="newaccount.jsp">Create Account</a>
                     </li>
                     <li class="active">
-                        <a href="login.jsp">Login</a>
+                        <a href="WebSiteController?action=login">Login</a>
                     </li>
                 </ul>    
                    

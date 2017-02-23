@@ -1,0 +1,14 @@
+SMAP
+addnews_jsp.java
+JSP
+*S JSP
+*F
++ 0 addnews.jsp
+addnews.jsp
+*L
+1,3:54
+3:175,7
+3,96:58
+98:201,7
+98,3:155
+*E
